@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.crm.comcast.genericUtilities.ItestListner">
+
+</listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.vtiger.com.CRM.VTIGER.TEST.AppTest"/>
+      <class name="com.crm.practise.TestNGTest.DataProviderUseThreeDataTest"/>
+      <class name="com.crm.vTiger.TestNG.CreateContactGroupAsSupport"/>
+      <class name="com.crm.vTiger.TestNG.AnimalSize"/>
+      <class name="com.crm.vTiger.TestNG.CreateContactGroupAsMarkettingGroupTest"/>
+      <class name="com.crm.vTiger.TestNG.CreateContactwithOrganization"/>
+      <!-- class name="com.crm.comcast.grid.SeleniumGrid -->
+      <class name="com.crm.practise.TestNGTest.ReaddataTest"/>
+      <class name="com.crm.practise.TestNGTest.DataProviderTest"/>
+      <class name="com.crm.vTiger.TestNG.CreateConatctsTest"/>
+      <!-- class name="com.crm.comcast.grid.RemoteExceution"/ -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
