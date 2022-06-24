@@ -2,43 +2,40 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T13:07:14 IST" name="Default suite" finished-at="2022-06-23T13:07:36 IST" duration-ms="22355">
+  <suite started-at="2022-06-24T15:25:28 IST" name="Default suite" finished-at="2022-06-24T15:26:02 IST" duration-ms="33331">
     <groups>
-      <group name="smokeTest">
-        <method signature="CreateContactTeamSelling.createContactTeamSellingTest()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" name="createContactTeamSellingTest" class="com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2022-06-23T13:07:14 IST" name="Default test" finished-at="2022-06-23T13:07:36 IST" duration-ms="22355">
-      <class name="com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling">
-        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:14 IST" name="dbConfig" finished-at="2022-06-23T13:07:14 IST" duration-ms="10" status="PASS">
+    <test started-at="2022-06-24T15:25:28 IST" name="Default test" finished-at="2022-06-24T15:26:02 IST" duration-ms="33331">
+      <class name="com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:25:28 IST" name="dbConfig" finished-at="2022-06-24T15:25:28 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dbConfig -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:14 IST" name="launchBrowser" finished-at="2022-06-23T13:07:20 IST" duration-ms="6687" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:25:29 IST" name="launchBrowser" finished-at="2022-06-24T15:25:35 IST" duration-ms="5861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="logintoApplication()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:20 IST" name="logintoApplication" finished-at="2022-06-23T13:07:24 IST" duration-ms="3152" status="PASS">
+        <test-method is-config="true" signature="logintoApplication()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:25:35 IST" name="logintoApplication" finished-at="2022-06-24T15:25:38 IST" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoApplication -->
-        <test-method signature="createContactTeamSellingTest()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:24 IST" name="createContactTeamSellingTest" finished-at="2022-06-23T13:07:36 IST" duration-ms="12192" status="PASS">
+        <test-method signature="Createcontactwithcampaign()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:25:38 IST" name="Createcontactwithcampaign" finished-at="2022-06-24T15:26:01 IST" duration-ms="23311" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createContactTeamSellingTest -->
-        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:36 IST" name="logoutApplication" finished-at="2022-06-23T13:07:36 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- Createcontactwithcampaign -->
+        <test-method is-config="true" signature="logoutApplication()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:26:01 IST" name="logoutApplication" finished-at="2022-06-24T15:26:01 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:36 IST" name="closeBrowser" finished-at="2022-06-23T13:07:36 IST" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:26:01 IST" name="closeBrowser" finished-at="2022-06-24T15:26:02 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closedbConnection()[pri:0, instance:com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling@2e6a8155]" started-at="2022-06-23T13:07:36 IST" name="closedbConnection" finished-at="2022-06-23T13:07:36 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="closedbConnection()[pri:0, instance:com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest@e350b40]" started-at="2022-06-24T15:26:02 IST" name="closedbConnection" finished-at="2022-06-24T15:26:02 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedbConnection -->
-      </class> <!-- com.crm.comcast.createContactTeamSellingTeamAssignment.CreateContactTeamSelling -->
+      </class> <!-- com.crm.comcast.createcontactgotocamapignAssignment.CreatecontactwithcampaignTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

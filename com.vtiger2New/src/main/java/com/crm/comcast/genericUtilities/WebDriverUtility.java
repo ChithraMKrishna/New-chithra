@@ -253,13 +253,14 @@ public void clickOnEnterButton(WebDriver driver)
  * @throws IOException 
  * 
  */
-public void takeScreeshot(WebDriver driver,String screenshotName) throws IOException
+public static String takeScreeshot(WebDriver driver,String screenshotName) throws IOException
 	{
 		TakesScreenshot takescreenshot=(TakesScreenshot) driver;
 		File src = takescreenshot.getScreenshotAs(OutputType.FILE);
 		File dst = new File("./screenshot/"+screenshotName+".PNG");
 		Files.copy(src, dst);
 		
+		return screenshotName;
 	}
 
 

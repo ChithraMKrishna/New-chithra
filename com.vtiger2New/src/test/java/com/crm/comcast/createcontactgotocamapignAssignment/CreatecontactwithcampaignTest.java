@@ -10,6 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.comcast.genericUtilities.BaseClass;
@@ -27,7 +28,7 @@ import com.crm.objectRepository.ProductDetailsPage;
 import com.crm.objectRepository.SignOutPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
+@Listeners(com.crm.comcast.genericUtilities.ItestListner.class)
 public class CreatecontactwithcampaignTest extends BaseClass
 {
 
